@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
-
+#demo#
 def open_url():
     s = Service(ChromeDriverManager().install())  # It will install chromedriver in runtime,
     driver = webdriver.Chrome(service=s)
